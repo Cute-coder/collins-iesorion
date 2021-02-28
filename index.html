@@ -1,0 +1,322 @@
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="What Lyrics are to a song, Food is that to our body. Cooking Lyrics has always believed in the spirit of giving and eradicating hunger. We ensure that everyone has access to healthy homecooked meals in their time of distress. Our website encourages citizens to donate their leftover food to feed the hungry instead of throwing it away. We also have a wide range of healthy and easy-to-cook recipes to make sure that our users can make their own food and lead a healthier life.">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <link rel="preconnect" href="https://fonts.gstatic.com">
+	    <meta name="theme-color" content="#ffffff">
+	    <title>Share Food, Spread Happiness</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		* {box-sizing: border-box}
+		body {font-family: Verdana, sans-serif; margin:0}
+		.mySlides {display: none}
+		img {vertical-align: middle;}
+
+		/* Slideshow container */
+		.slideshow-container {
+		max-width: 700px;
+		position: relative;
+		}
+
+		/* Next & previous buttons */
+		.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -22px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+		background-color: rgba(0,0,0,0.8);
+		}
+
+		/* Caption text */
+		.text {
+		color: #f2f2f2;
+		font-size: 15px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+		}
+
+		.active, .dot:hover {
+		background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+		}
+
+		@keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		.prev, .next,.text {font-size: 11px}
+		}
+		</style>
+	</head>
+	<body>
+		<table border="0" width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<table border="0" width="100%" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>
+					<nav>
+						<div class="row">
+							<img src="images/Our Logo Transparent.png" alt="Omnifood logo" class="logo-black">
+							<div class="Company">
+								<font color="#e67e22">
+									<center><br><p style="margin: 0 auto 0 auto; display: block; width: 45%; font-family: 'Merienda', cursive; font-size: 220%;">Cooking Lyrics</p></center>
+								</font>
+							</div>
+							<ul class="main-nav js--main-nav">
+								<li><a href="#features">Donate Food</a></li>
+								<li><a href="#works">Recipies</a></li>
+								<li><a href="#cities">Fun Food Facts</a></li>
+								<li><a href="HTML/Foods%20and%20Nutrition.html">Food and Nutrition</a></li>
+								<li><a href="#features">About Us</a></li>
+							</ul>
+						</div>
+					</nav>
+				</td>
+			</tr>
+	        <tr>
+				<td>
+	        		<div class="hero-text-box">
+	            		<h1>Yummy Cooking,<br>Zero wasting.</h1>
+	            		<a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry</a>
+	            		<a class="btn btn-ghost js--scroll-to-start" href="#features">Show me more</a>
+	        			<div class="slideshow-container">
+
+							<div class="mySlides fade">
+								<div class="numbertext">1 / 3</div>
+								<img src="img_nature_wide.jpg" style="width:100%">
+								<div class="text">What Caption to put here</div>
+							</div>
+							
+							<div class="mySlides fade">
+								<div class="numbertext">2 / 3</div>
+								<img src="img_snow_wide.jpg" style="width:100%">
+								<div class="text">And Here</div>
+							</div>
+							
+							<div class="mySlides fade">
+								<div class="numbertext">3 / 3</div>
+								<img src="img_mountains_wide.jpg" style="width:100%">
+								<div class="text">And Here</div>
+							</div>
+							
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>														
+					
+						</div>
+						<br>
+					
+						<div style="text-align:center">
+							<span class="dot" onclick="currentSlide(1)"></span> 
+							<span class="dot" onclick="currentSlide(2)"></span> 
+							<span class="dot" onclick="currentSlide(3)"></span> 
+						</div>
+						<script>
+							var slideIndex = 1;
+							showSlides(slideIndex);
+							
+							function plusSlides(n) {
+							showSlides(slideIndex += n);
+							}
+							
+							function currentSlide(n) {
+							showSlides(slideIndex = n);
+							}
+							
+							function showSlides(n) {
+							var i;
+							var slides = document.getElementsByClassName("mySlides");
+							var dots = document.getElementsByClassName("dot");
+							if (n > slides.length) {slideIndex = 1}    
+							if (n < 1) {slideIndex = slides.length}
+							for (i = 0; i < slides.length; i++) {
+								slides[i].style.display = "none";  
+							}
+							for (i = 0; i < dots.length; i++) {
+								dots[i].className = dots[i].className.replace(" active", "");
+							}
+							slides[slideIndex-1].style.display = "block";  
+							dots[slideIndex-1].className += " active";
+							}
+							</script>
+							
+					</div>
+				</td>
+			</tr>
+		</table>
+	    <section class="section-features js--section-features" id="features">
+	        <div class="row">
+	            <h2>Eat Healthy &mdash; Get Healthy</h2>
+	            <p class="long-copy">
+	                What Lyrics are to a song, Food is that to our body. Cooking Lyrics has always believed in the spirit of 'giving' and eradicating hunger. We ensure that everyone has access to healthy homecooked meals in their time of distress. Our website encourages citizens to donate their leftover food to feed the hungry instead of throwing it away. We also have a wide range of healthy and easy-to-cook recipes to make sure that our users can make their own food and lead a healthier life.
+	            </p>
+	        </div>
+	    </section>
+		<section class="cities" id="cities">
+	        <div class="row">
+	            <h2>We're currently in these cities</h2>
+	        </div>
+	        <div class="row">
+	            <center>
+	                <table cellpadding="20" cellspacing="80">
+	                    <tr>
+	                        <td>
+	                            <img src="Resources/img/mu.jpg" alt="Mumbai" height="100" width="200">
+	                            <h3>Mumbai</h3>
+	                            <div class="city-feature">
+	                                1600+ happy eaters
+	                            </div>
+	                            <div class="city-feature">
+	                                60+ top chefs
+	                            </div>
+	                            <div class="city-feature">
+	                                <a href="#">@cookinglyrics_mu</a>
+	                            </div>
+	                        </td>
+	                        <td>
+	                            <img src="Resources/img/nd.jpg" alt="New Delhi" height="100" width="200">
+	                            <h3>New Delhi</h3>
+	                            <div class="city-feature">
+	                                3700+ happy eaters
+	                            </div>
+	                            <div class="city-feature">
+	                                60+ top chefs
+	                            </div>
+	                            <div class="city-feature">
+	                                <a href="#">@cookinglyrics_nd</a>
+	                            </div>
+	                        </td>
+	                        <td>
+	                            <img src="Resources/img/ch.jpg" alt="Chennai" height="100" width="200">
+	                            <h3>Chennai</h3>
+	                            <div class="city-feature">
+	                                2300+ happy eaters
+	                            </div>
+	                            <div class="city-feature">
+	                                110+ top chefs
+	                            </div>
+	                            <div class="city-feature">
+	                                <a href="#">@cookinglyrics_ch</a>
+	                            </div>
+	                        </td>
+	                        <td>
+	                            <img src="Resources/img/kl.jpg" alt="Kolkata" height="100" width="200">
+	                            <h3>Kolkata</h3>
+	                            <div class="city-feature">
+	                                1200+ happy eaters
+	                            </div>
+	                            <div class="city-feature">
+	                                50+ top chefs
+	                            </div>
+	                            <div class="city-feature">
+	                                <a href="#">@cookinglyrics_kl</a>
+	                            </div>
+	                        </td>
+	                    </tr>
+	                </table>
+	            </center>
+	        </div>
+	    </section>
+	    <section class="section-testimonials">
+	        <div class="row">
+	            <h2>Our customers can't live without us</h2>
+	        </div>
+	        <div class="row">
+	            <table cellpadding="0" cellspacing="0">
+	                <tr>
+	                    <td>
+	                        <blockquote>
+	                            Cooking Lyrics is just Unbelievable. I always wanted to help the poor but as I am the Software Engineer I have no time to donate. In cooking lyrics I click a button on my laptop and the people come to take my food. This has made my job much easier
+	                            <cite><img src="Resources/img/customer-1.jpg" alt="Customer 1 Photo">Kiran Kumar</cite>
+	                        </blockquote>
+	                    </td>
+	                    <td>
+	                        <blockquote>
+	                            In the lockdown I was tired eating the same food items. One day I was searching for some good websites for recipes , and I found that cooking lyrics was the best. I found one of the easiest and tasty recipes of India in step by step procedures. It is simply amazing
+	                            <cite><img src="Resources/img/customer-2.jpg" alt="Customer 2 Photo">Gopal Iyer</cite>
+	                        </blockquote>
+	                    </td>
+	                    <td>
+	                        <blockquote>
+	                            Now that I am so fond with cooking lyrics I can say now that if Cooking Lyrics was not there I would also not be there. Initially I was refering to Cooking Lyrics for recipes but my quantity was always more and I had to throw the extra food. But when I found we can also donate our food I was happy like anything as no food is being wasted now.
+	                            <cite><img src="Resources/img/customer-3.jpg" alt="Customer 3 Photo">Aarav Purohit</cite>
+	                        </blockquote>
+	                    </td>
+	                </tr>
+	            </table>
+	        </div>
+	    </section>
+	    <footer>
+	        <div class="row" id="about">
+	            <p>
+	                Copyright &copy; 2021 by Cooking Lyrics. All Rights Reserved
+	            </p>
+	        </div>
+	    </footer>
+	</body>
+
+	</html>
+	<!--
+	
+	-->
